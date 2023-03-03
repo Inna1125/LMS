@@ -1,0 +1,157 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kanit:wght@300&family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+.page-item{
+		display:inline;
+	}
+.context{
+	background-color: #1F1F1F;
+    display: flex;
+    height: 800px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow:auto;
+}
+.context h2{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:20pt;
+	font-weight: 900;
+	color:#FFFDEE;
+}
+.context hr{
+	border: solid 3px #FFFDEE;
+	width:1500px;
+}
+.searchfrm select, .searchfrm input{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 10pt;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    border: solid 2px #FFFDEE;
+    border-radius: 10px;
+}
+th{
+ 	color:#FFFDEE;
+ 	font-size:15pt;
+ 	text-align:center;
+ 	border:2px solid #FFFDEE;
+ 	padding:10px;
+ 	border-radius:10px;
+ 	
+}
+td{
+	color:#ffffff;
+	text-align:center;	
+}
+td > a {
+	color:#B9DFEA;
+}
+fieldset{
+	color:#FFFDEE;
+	border:solid 3px #FFFDEE;
+	padding:20px;
+}	
+.context legend{
+	color:#FFFDEE;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:20pt;
+	text-align:center;	
+	font-weight:600;
+	padding-bottom:20px;
+}
+.but{
+	color: #1F1F1F;
+	background-color:#FFFDEE;
+	font-family: 'Nanum Gothic', sans-serif;
+	width:150px;
+	height:40px;
+	border-radius:10px;
+	font-size:13pt;
+	font-weight:600;
+}
+.page{
+	display: flex;
+    color: #DBDCDD;
+    background-color: #FFFDEE;
+    height: 30px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 300px;
+    font-family: 'Kanit', sans-serif;
+    justify-content: center;
+    border-radius: 5px;
+    FONT-WEIGHT: 600;
+    margin-bottom: 20px;
+}
+.justify-content-center{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+}
+.page-item {
+    font-family: 'Nanum Gothic', sans-serif;
+    display: inline-block;
+}
+
+.page-item a:active{
+	background-color:#1F1F1F;
+	color:#FFFDEE;
+}
+.page-link{
+	color: #1F1F1F;
+    padding: 6px;
+}
+.keyword{
+	color:#FFFDEE;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-weight:800;
+	font-size:20pt;
+}
+.backList{
+	color:#FFFDEE;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 15pt;
+}
+.detail{
+	background-color: #FFFDEE;
+    display: flex;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #1F1F1F;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.detail fieldset{
+	border:3px solid #1F1F1F;
+	border-radius:10px;
+	padding: 50px
+}
+.inText{
+	width:200px;
+	height:20px;
+	border:1.5px solid #1F1F1F;
+	border-radius:5px;
+	padding-left:10pt;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+.texta{
+	border:1.5px solid #1F1F1F;
+	border-radius:5px;
+	padding-left:10pt;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+.label{
+	font-family: 'Nanum Gothic', sans-serif;
+	color: #1F1F1F;
+}

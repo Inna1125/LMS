@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kanit:wght@300&family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+a{
+	text-decoration:none;
+	
+}
+ul{
+	list-style:none;
+    display: contents;
+}
+/*화면 중앙 컨테이너*/
+
+#container{
+	margin:0 auto;
+	width:100%;
+}
+
+#mainImg{
+	width: 100%;
+	height: 300px;
+	background-image: linear-gradient(
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+      ), url("/tomcatImg/library-7720589_1280.jpg");
+}
+/* 콘텐츠영역 */
+#contents{
+	display: flex;
+    width: 100%;
+    height: 600px;
+    padding: 0 200px;
+    position: relative;
+    background-color: #1F1F1F;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+	
+}
+#slide_new{
+	display: flex;
+    width: 400px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-direction: row;
+}
+#slide_new > h2{
+	border: solid; 
+	padding:5px;
+	border-radius:10px;
+	background-color:#FFFDEE;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:20pt;
+	color:#1F1F1F;
+	font-weight:800;
+}
+#slide_new > hr{
+	color:#FFFDEE;
+	width:350px;
+	border-width: 3px;
+}
+#slide_new > img{
+	width: 300px;
+	height:450px;
+	float: left;
+}
+#links{
+	display: flex;
+    width: 400px;
+    height: 600px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+#links ul li{
+	display:inline-block;
+	width :150px;
+	text-align:center;
+	margin:10px 0;	
+}
+#links ul li img{
+	filter: invert(100%) sepia(72%) saturate(364%) hue-rotate(21deg) brightness(107%) contrast(106%);
+	transition: 0.05s ease-in;
+}
+#links ul li img:hover{
+	filter: invert(37%) sepia(0%) saturate(4%) hue-rotate(165deg) brightness(105%) contrast(88%);
+}
+#links ul li p{
+	margin-top :15px;
+	font-weight:600;
+	color:#666;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:14pt;
+	
+}
+#slide_best{
+	display: flex;
+    width: 400px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-direction: row;
+}
+#slide_best > h2{
+	border: solid; 
+	padding:5px;
+	border-radius:10px;
+	background-color:#FFFDEE;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:20pt;
+	color:#1F1F1F;
+	font-weight:900;
+}
+#slide_best > hr{
+	color:#FFFDEE;
+	width:350px;
+	border-width: 3px;
+}
+#slide_best > img{
+	width: 300px;
+	height:450px;
+	float: left;
+}
+p{
+	font-size:14px;
+	color:#666;
+}

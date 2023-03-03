@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kanit:wght@300&family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+a{
+	text-decoration:none;
+}
+ul{
+	list-style:none;
+}
+p{
+	font-size:14px;
+	color:#666;
+}
+footer{
+	display: flex;
+    width: 100%;
+    height: 90px;
+    border-top: 2px solid #222;
+    background-color: #1F1F1F;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.bor-footer > hr{
+	color:#FFFDEE;
+	width:100%;
+	border-width: 2px;
+	border: solid;
+}
+#bottomMenu{
+	width: 850px;
+    height: 90px;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#bottomMenu ul{
+	margin-top:15px;
+}
+#bottomMenu ul li{
+	float:left;
+	padding:5px 20px;
+	border-right: 1px solid #ddd;
+}
+#bottomMenu ul li:last-child{
+	border-right:none;
+}
+#bottomMenu ul li a , #bottomMenu ul li a:visited{
+	font-size:15px;
+	color:#666;
+}
+#company{
+	width: 850px;
+    display: flex;
+    clear: left;
+    margin-right: 150px;
+    margin-top: 15px;
+    height: 90px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: flex-start;
+    align-items: center;
+}

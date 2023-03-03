@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kanit:wght@300&family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+.askHome{
+    background-color: #1F1F1F;
+    display: flex;
+    height: 800px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.askHome p{
+	color:#FFFDEE;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:20pt;
+	font-weight:600;
+	text-align:center;	
+}
+.icon{
+	padding:30px;
+	border: 3px solid #FFFDEE;
+	border-radius:10px;
+	margin:30px;
+}
+.icon img:hover{
+	cursor:pointer;
+}
+.askfrm{
+	background-color: #1F1F1F;
+    display: flex;
+    height: 800px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.askfrm legend{
+	color:#FFFDEE;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:20pt;
+	text-align:center;	
+	font-weight:600;
+}
+.writefield{
+	padding:70px;
+	overflow:auto;
+}
+.writefrm{
+	padding:10px;
+}
+.label{
+	color:#FFFDEE;
+	font-family: 'Nanum Gothic', sans-serif;
+	text-align:center;	
+	margin-bottom:40px;
+	vertical-align: top;
+	padding-right:10px;
+	
+}
+.inText{
+	width:400px;
+	height:40px;
+	border:1.5px solid #FFFDEE;
+	border-radius:5px;
+	padding-left:10pt;
+	font-family: 'Nanum Gothic', sans-serif;
+	margin-bottom:30px;
+	vertical-align: middle;
+}
+.texta{
+	border:1.5px solid #FFFDEE;
+	border-radius:5px;
+	padding-left:10pt;
+	font-family: 'Nanum Gothic', sans-serif;
+	margin-bottom:40px;
+}
+.but{
+	color: #1F1F1F;
+	background-color:#FFFDEE;
+	font-family: 'Nanum Gothic', sans-serif;
+	width:100px;
+	height:40px;
+	border-radius:10px;
+	font-size:13pt;
+	font-weight:600;
+}
+.butArea{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+}
+.list{
+	color:#FFFDEE;
+	font-family: 'Nanum Gothic', sans-serif;
+	text-align:center;
+	padding:10px;
+	border-top:1px solid #FFFDEE;
+	border-left: 1px solid #FFFDEE;
+	border-right: 1px solid #FFFDEE;
+	
+}
+.list a{
+	color:#B9DFEA;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+.writefrm a{
+	color:#B9DFEA;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+.text{
+	color:#FFFDEE;
+	font-family: 'Nanum Gothic', sans-serif;
+	vertical-align: top;
+}
+.addition{
+	color:#FFFDEE;
+	font-family:'Nanum Gothic', sans-serif;
+}

@@ -1,0 +1,148 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kanit:wght@300&family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+/* 로고폰트 */
+
+a{
+	text-decoration:none;
+	
+}
+ul{
+	list-style:none;
+}
+/*화면 중앙 컨테이너*/
+
+#container{
+	margin:0 auto;
+	width:100%;
+	background-color:#1F1F1F;
+}
+/* 헤더영역 */
+
+header{
+	display:flex;
+	flex-wrap:nowrap;
+	justify-content:space-evenly;
+	align-content:space-evenly;
+	width:100%;
+	height:150px;
+	background-color:#1F1F1F;
+}
+/* 로고영역 */
+
+#logo{
+	width: 400px;
+    height: 150px;
+    line-height: 150px;
+    padding-left: 110px;
+	
+}
+#logo h1{ 
+	font-family: 'Black Ops One', cursive; 
+	font-weight:500; 
+	font-size : 60px; 
+ 	color:#FFFDEE; 
+ 	text-shadow:2px 2px 2px #B9DFEA; 
+	
+}
+
+/* 네비게이션영역 */
+
+nav{
+	display:flex;
+	flex-wrap:nowrap;
+	justify-content:space-around;
+	height:150px;
+	width:920px;
+}
+#topMenu{
+	height:40px;
+	font-family: 'Kanit', sans-serif;
+	font-weight:300;	
+}
+#topMenu > li {
+	float:left;
+	position:relative;
+
+}
+#topMenu > li > a{ 		
+	display:inline-block;
+	color:#DBDCDD;
+	font-size:30px;
+	padding: 50px 35px 10px 40px;
+	transition: 0.5s ease-out;	/*커서 올리면 상위메뉴 글자색 변경 0.5초만에 천천히*/
+}
+#topMenu > li > a:hover{
+	color:#B9DFEA;	/*커서 올리면 상위메뉴 글자색(파란색) 변경*/
+}
+#topMenu > li > ul{ 
+	display : none;
+	position:absolute;
+	width:160px;
+	background-color:#131217;
+	opacity:90%;
+	left:0;
+	margin:0;
+}
+#topMenu > li > ul >li{
+	padding: 8px 8px 8px 20px;
+}
+#topMenu > li > ul > li > a{
+	font-size:16px;			
+	padding:10px;
+	color:#fff;			 /*커서 올리면 상위메뉴 흰색에서 글자색(파란색) 변경*/
+	font-family: 'Nanum Gothic', sans-serif;
+	font-weight:200;
+}
+
+#topMenu > li:hover > ul{
+	display:block; 	
+	z-index:10;
+	
+}
+#topMenu > li > ul > li >a:hover{
+	color:#B9DFEA;	 /*커서 올리면 상위메뉴 글자색(파란색) 변경*/
+}
+/* 버튼영역 */
+#buttonArea{
+    width: 550px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+	
+}
+#button1{
+	width:150px;
+	height:90px;
+	margin:10px;
+	margin-top:10px;
+	font-size:25px;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-weight:800;
+	color:#fff;
+	background-color:#B9DFEA; 
+	border:0px;
+	border-radius:10px;
+	transition:0.7s ease-out;
+}
+#button1:hover{
+	background:#131217;
+}
+#buttonArea #sessionMark{
+	font-size:10pt;
+	margin:0;
+	padding:0;
+	font-family: 'Nanum Gothic', sans-serif;
+	color: #DBDCDD;
+	font-weight:300
+	
+}

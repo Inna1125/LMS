@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kanit:wght@300&family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+#con{
+	background-color: #1F1F1F;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 800px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+#con > ul{
+        width: 500px;
+    display: contents;
+    height: 800px;
+}
+
+#icon > img{
+	width:300px;
+	height:300px;
+	filter: invert(92%) sepia(12%) saturate(400%) hue-rotate(333deg) brightness(106%) contrast(106%);
+	transition: 0.05s ease-in;
+}
+#icon > img:hover{
+	filter: invert(42%) sepia(100%) saturate(2694%) hue-rotate(204deg) brightness(101%) contrast(95%);
+}
